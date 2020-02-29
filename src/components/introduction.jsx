@@ -51,14 +51,14 @@ export default class Introduction extends Component {
                             <br /> THINGS !!
                           </h1>
                           <p>
-                            {/* <a
+                            <a
                               className="btn btn-primary btn-learn"
-                              href="https://github.com/Dhruv34788"
+                              href="https://github.com/AkshayWay"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               View Projects <i className="icon-briefcase3" />
-                            </a> */}
+                            </a>
                           </p>
                         </div>
                       </div>
@@ -75,7 +75,7 @@ export default class Introduction extends Component {
                         <div className="desc">
                           <h1>
                             I often <br />
-                            Write technical answeres...{" "}
+                            write technical answers...{" "}
                           </h1>
                           <p>
                             <a

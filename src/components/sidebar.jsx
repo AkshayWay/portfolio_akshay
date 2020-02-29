@@ -1,6 +1,16 @@
 import React, { Component } from "react";
 
 export default class Sidebar extends Component {
+  constructor() {
+    super();
+
+    var today = new Date(),
+      Currentdate = today.getFullYear();
+
+    this.state = {
+      date: Currentdate
+    };
+  }
   render() {
     return (
       <div>
@@ -31,7 +41,7 @@ export default class Sidebar extends Component {
                 <a href="index.html">Akshay Wayangankar</a>
               </h1>
               <span className="email">
-                <i className="icon-mail"></i> waingankar.akshay95@gmail.com
+                <i className="icon-mail"></i> hi@akshaywayangankar.com
               </span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
@@ -47,8 +57,12 @@ export default class Sidebar extends Component {
                       About
                     </a>
                   </li>
-                  {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
+                  {/* <li>
+                    <a href="#" data-nav-section="projects">
+                      Projects
+                    </a>
+                  </li> */}
+                  {/* <li><a href="#" data-nav-section="blog">Blog</a></li> */}
                   <li>
                     <a href="#timeline" data-nav-section="timeline">
                       Timeline
@@ -95,22 +109,22 @@ export default class Sidebar extends Component {
                     <i className="icon-linkedin2" />
                   </a>
                 </li>
-                {/* <li>
+                <li>
                   <a
-                    href="https://github.com/Dhruv34788"
+                    href="https://github.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <i className="icon-github"></i>
                   </a>
-                </li> */}
+                </li>
                 <li>
                   <a
                     href="https://www.quora.com/profile/Akshay-Wayangankar-1"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fa fa-quora" aria-hidden="true"></i>
+                    <i className="icon-quora" aria-hidden="true"></i>
                   </a>
                 </li>
               </ul>
@@ -118,15 +132,11 @@ export default class Sidebar extends Component {
             <div className="colorlib-footer">
               <p>
                 <small>
-                  Made with <i className="icon-heart" aria-hidden="true" /> and{" "}
-                  <i className="icon-beer" aria-hidden="true"></i>
-                  <br></br>
-                  Thanks{" "}
-                  <a
-                    href="https://colorlib.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  &copy;
+                  {this.state.date} All rights reserved
+                  <br /> Made with <i class="icon-heart" aria-hidden="true"></i>
+                  . Thanks{" "}
+                  <a href="https://colorlib.com" target="_blank">
                     Colorlib
                   </a>{" "}
                   for inspiration
