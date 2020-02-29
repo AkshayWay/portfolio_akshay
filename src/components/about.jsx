@@ -17,15 +17,16 @@ export default class About extends Component {
                       <span className="heading-meta">About Me</span>
                       <h2 className="colorlib-heading">Who Am I?</h2>
                       <p>
-                        I hold Master's degree in Information Technology and
+                        I hold a Master's degree in Information Technology and
                         having 3+years of experience in ASP.NET MVC along with
-                        JavaScript and JQuery.I love exploring new technologies.
-                        After working as .NET developer, now I am looking
-                        forward to gain knowledge in open source languages.
+                        JavaScript and JQuery. I love exploring new
+                        technologies. After working as .NET developer, now I am
+                        looking forward to gaining knowledge in open source
+                        languages.
                       </p>
                       <p>
-                        I did couple of freelancing projects and now started
-                        working on Angular, ReactJS and NodeJS.
+                        I have done a couple of freelance projects and now have
+                        started working on Angular, ReactJS and NodeJS.
                       </p>
                     </div>
                   </div>
@@ -56,9 +57,8 @@ export default class About extends Component {
                   <div className="desc">
                     <h3>Web Development </h3>
                     <p>
-                      I have experience building websites from scratch using
-                      HTML, CSS, JavaScript/JQuery, Bootstrap, SQL Server,
-                      ASP.NET .
+                      Have build websites from scratch using HTML, CSS,
+                      JavaScript/JQuery, Bootstrap, SQL Server, ASP.NET.
                     </p>
                   </div>
                 </div>
@@ -71,9 +71,9 @@ export default class About extends Component {
                   <div className="desc">
                     <h3>Tools & Softwares</h3>
                     <p>
-                      I have an experience on FileZill, GitHub and Postman
+                      I have an experience on FileZilla, GitHub and Postman
                       Softwares. I am using Canva(https://www.canva.com/)
-                      website for logo and other designing part.
+                      website for logo and other designing parts.
                     </p>
                   </div>
                 </div>
@@ -86,46 +86,12 @@ export default class About extends Component {
                   <div className="desc">
                     <h3>Web hosting</h3>
                     <p>
-                      I have worked on web hosting for my freelancing projects.
+                      While working as a freelancer, got the opportunity to
+                      learn and explore web hosting.
                     </p>
                   </div>
                 </div>
               </div>
-              {/*
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
-                <span className="icon">
-                    <i className="icon-data" />
-                </span>
-                <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>Jenkins , Kubernetes , Docker </p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-4">
-                <span className="icon">
-                    <i className="icon-layers2" />
-                </span>
-                <div className="desc">
-                    <h3>Graphic Design</h3>
-                    <p>My friend knows .. P</p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-6">
-                <span className="icon">
-                    <i className="icon-phone3" />
-                </span>
-                <div className="desc">
-                    <h3>Digital Marketing</h3>
-                    <p>I use Instagram eight hours a day :) </p>
-                </div>
-                </div>
-            </div>
-            */}
             </div>
           </div>
         </section>
