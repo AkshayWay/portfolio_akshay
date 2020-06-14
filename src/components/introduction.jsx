@@ -25,7 +25,7 @@ export default class Introduction extends Component {
                           <p>
                             <a
                               className="btn btn-primary btn-learn"
-                              href="https://drive.google.com/file/d/1KK4elPU95bPO1dI6R_K0F1Cb4D5LvMfb/view?usp=sharing"
+                              href="https://drive.google.com/file/d/1t6ICZOU0OdcPNS8Sg4kD0DakQ1CGtJOJ/view?usp=sharing"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -57,7 +57,7 @@ export default class Introduction extends Component {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              View Projects <i className="icon-briefcase3" />
+                              Projects <i className="icon-briefcase3" />
                             </a>
                           </p>
                         </div>
@@ -84,7 +84,34 @@ export default class Introduction extends Component {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              View quora <i className="icon-book" />
+                              quora <i className="icon-pencil" />
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li style={{ backgroundImage: "url(images/bg_img.jpeg)" }}>
+                <div className="overlay" />
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                      <div className="slider-text-inner">
+                        <div className="desc">
+                          <h1>
+                            I often <br />
+                            Write ...{" "}
+                          </h1>
+                          <p>
+                            <a
+                              className="btn btn-primary btn-learn"
+                              href="https://medium.com/@akshay.waingankar95"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              View Blog <i className="icon-book" />
                             </a>
                           </p>
                         </div>
